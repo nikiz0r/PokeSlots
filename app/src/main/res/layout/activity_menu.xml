@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/horizontalPad"
+    android:paddingLeft="@dimen/horizontalPad"
+    android:paddingTop="@dimen/verticalPad"
+    android:paddingBottom="@dimen/verticalPad"
+    android:background="@drawable/menu_bg"
+    tools:context="com.fiap.rumenigue.slotmachine.MenuActivity">
+
+    <include layout="@layout/footer"/>
+    <include layout="@layout/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/logo">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/play"
+            android:id="@+id/btnPlay"
+            android:textColor="@color/colorBtnText"
+            android:onClick="play"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/about"
+            android:id="@+id/btnAbout"
+            android:layout_marginTop="@dimen/marginBtwBtn"
+            android:textColor="@color/colorBtnText"
+            android:onClick="about"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_width">150dp</dimen>
+    <dimen name="splash_height">150dp</dimen>
+    <dimen name="footerTextSize">16sp</dimen>
+    <dimen name="footerVersionTextSize">12sp</dimen>
+    <dimen name="marginBtwBtn">15dp</dimen>
+    <dimen name="textLogoSize">50sp</dimen>
+    <dimen name="logoMarginTop">60dp</dimen>
+    <dimen name="horizontalPad">16dp</dimen>
+    <dimen name="verticalPad">8dp</dimen>
+    <dimen name="choiceTextSize">18sp</dimen>
+    <dimen name="marginTopPlayerAct">50dp</dimen>
+    <dimen name="gameact_textSize">20sp</dimen>
+    <dimen name="slot_sideMargin">15dp</dimen>
+</resources>

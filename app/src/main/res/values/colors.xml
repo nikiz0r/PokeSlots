@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBtnText">#FFF</color>
+
+    <color name="gameHeader_textColor">#FFF</color>
+    <color name="logo_fontColor">#eeff00</color>
+    <color name="logo_shadowColor">#000</color>
+
+    <color name="gameBG_header">#000</color>
+</resources>

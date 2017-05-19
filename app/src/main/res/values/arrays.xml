@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chips_options">
+        <item>@string/chips_amount</item>
+        <item>@string/chips_1</item>
+        <item>@string/chips_2</item>
+        <item>@string/chips_3</item>
+        <item>@string/chips_4</item>
+        <item>@string/chips_5</item>
+        <item>@string/chips_6</item>
+        <item>@string/chips_7</item>
+        <item>@string/chips_8</item>
+        <item>@string/chips_9</item>
+        <item>@string/chips_10</item>
+    </string-array>
+</resources>

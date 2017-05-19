@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/logo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gameName"
+        android:id="@+id/tvLogo"
+        android:layout_marginTop="@dimen/logoMarginTop"
+        android:gravity="center"
+        android:textColor="@color/logo_fontColor"
+        android:shadowColor="@color/logo_shadowColor"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="@dimen/textLogoSize"/>
+
+</RelativeLayout>

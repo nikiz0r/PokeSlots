@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/horizontalPad"
+    android:paddingLeft="@dimen/horizontalPad"
+    android:paddingTop="@dimen/verticalPad"
+    android:paddingBottom="@dimen/verticalPad"
+    android:background="@drawable/choose"
+    tools:context="com.fiap.rumenigue.slotmachine.PlayerActivity">
+
+    <include layout="@layout/logo"/>
+    <include layout="@layout/footer"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/logo"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginTopPlayerAct"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivBulbasaur"
+                    android:background="@drawable/bulbasaur"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivSquirtle"
+                    android:background="@drawable/squirtle"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivCharmander"
+                    android:background="@drawable/charmander"/>
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgPoke"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/rbBulbasaur"
+                    android:textColor="@color/gameHeader_textColor"
+                    android:textSize="@dimen/choiceTextSize"
+                    android:text="@string/p_bulbasaur"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/rbSquirtle"
+                    android:textColor="@color/gameHeader_textColor"
+                    android:textSize="@dimen/choiceTextSize"
+                    android:text="@string/p_squirtle"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/rbCharmander"
+                    android:textColor="@color/gameHeader_textColor"
+                    android:textSize="@dimen/choiceTextSize"
+                    android:text="@string/p_charmander"/>
+            </RadioGroup>
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etPlayerName"
+                android:layout_marginTop="@dimen/marginTopPlayerAct"
+                android:textSize="@dimen/choiceTextSize"
+                android:textColor="@color/gameHeader_textColor"
+                android:textColorHint="@color/gameHeader_textColor"
+                android:maxLength="10"
+                android:hint="@string/hint_player_name"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spChipsAmount"
+                android:entries="@array/chips_options"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/colorBtnText"
+                android:id="@+id/btnPlay"
+                android:layout_marginTop="@dimen/marginTopPlayerAct"
+                android:onClick="play"
+                android:text="@string/play"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

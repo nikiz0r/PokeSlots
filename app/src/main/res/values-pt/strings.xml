@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_spining">Rodandooo!</string>
+    <string name="about">Sobre</string>
+    <string name="chips_amount">Total de fichas</string>
+    <string name="footerText">Desenvolvido por Rumenigue Nogueira</string>
+    <string name="hint_player_name">Nome do jogador</string>
+    <string name="p_bulbasaur">Bulbasauro</string>
+    <string name="p_charmander"></string>
+    <string name="play">Jogar</string>
+    <string name="playing_as">{0} jogando como {1}</string>
+    <string name="text_chips">Fichas:</string>
+    <string name="small_prize">Premio pequeno!</string>
+    <string name="you_lost">Você perdeu!</string>
+    <string name="you_won">Você venceu!</string>
+    <string name="fillForm">Preencha todo o formulário</string>
+    <string name="game_over">Fim do jogo, clicque para jogar denovo</string>
+</resources>

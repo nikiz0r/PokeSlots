@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">PokeSlots</string>
+    <string name="footerText">Developed by Rumenigue Nogueira</string>
+    <string name="version">v1.0</string>
+    <string name="play">Play</string>
+    <string name="about">About</string>
+    <string name="gameName" translatable="false">PokeSlots</string>
+    <string name="p_bulbasaur">Bulbasaur</string>
+    <string name="p_charmander" translatable="false">Charmander</string>
+    <string name="p_squirtle" translatable="false">Squirtle</string>
+    <string name="hint_player_name">Player Name</string>
+    <string name="playing_as">{0} playing as {1}</string>
+    <string name="text_chips">Chips:</string>
+    <string name="hint_chips">9999</string>
+    <string name="chips_amount">Chips Amount</string>
+    <string name="chips_1">1</string>
+    <string name="chips_2">2</string>
+    <string name="chips_3">3</string>
+    <string name="chips_4">4</string>
+    <string name="chips_5">5</string>
+    <string name="chips_6">6</string>
+    <string name="chips_7">7</string>
+    <string name="chips_8">8</string>
+    <string name="chips_9">9</string>
+    <string name="chips_10">10</string>
+    <string name="bt_spining">Spiiiining!</string>
+    <string name="you_won">You won!</string>
+    <string name="small_prize">Small prize!</string>
+    <string name="you_lost">You lost!</string>
+    <string name="fillForm">Please, fill all the form.</string>
+    <string name="game_over">Game Over, click to play again</string>
+    <string name="TAG_NAME">TAG_NAME</string>
+    <string name="TAG_POKE">TAG_POKE</string>
+    <string name="TAG_CHIP">TAG_CHIP</string>
+</resources>
