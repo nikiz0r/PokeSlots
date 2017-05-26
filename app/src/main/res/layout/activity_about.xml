@@ -25,5 +25,14 @@
             android:layout_height="@dimen/splash_height"
             android:id="@+id/ivSplash"
             android:src="@drawable/logo"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="@string/back"
+            android:id="@+id/btnBack"
+            android:textColor="@color/colorBtnText"
+            android:onClick="back"/>
     </LinearLayout>
 </RelativeLayout>
